@@ -812,10 +812,10 @@
 //     case 3:
 //         console.log(`${a * 1} metr`);
 //         break;
-//     case 2:
+//     case 4:
 //         console.log(`${a * 0.001} metr`);
 //         break;
-//     case 2:
+//     case 5:
 //         console.log(`${a * 0.01} metr`);
 //         break;
 //     default:
@@ -828,30 +828,32 @@
 // 7
 
 // const a = +prompt("Og'irlik kiriting");
-// const amal = +prompt("Amalni kiriting");
+// const amal = +prompt("Massani kiriting");
 
 // switch (amal) {
 //     case 1:
-//         console.log(`${a * 0.1} metr`);
+//         console.log(`${a * 1} kg`);
 //         break;
 //     case 2:
-//         console.log(`${a * 1000} metr`);
+//         console.log(`${a * 0.000001} kg`);
 //         break;
 //     case 3:
-//         console.log(`${a * 1} metr`);
+//         console.log(`${a * 1000} kg`);
 //         break;
-//     case 2:
-//         console.log(`${a * 0.001} metr`);
+//     case 4:
+//         console.log(`${a * 100} kg`);
 //         break;
-//     case 2:
-//         console.log(`${a * 0.01} metr`);
+//     case 5:
+//         console.log(`${a * 0.01} kg`);
 //         break;
 //     default:
-//         console.log("togri narsa kirit");
+//         console.log("to'g'ri narsa kirit");
 //         break;
 // }
 
 
+
+// 8
 
 
 
