@@ -1,3 +1,5 @@
+"use strict"
+
 // lesson 1
 
 
@@ -264,7 +266,7 @@
 // }else if (a >= 40) {
 //     console.log("boladi ");
 // }else if (a <= 20) {
-//     console.log("chichib kel 🖕");
+//     console.log("chichib kel ");
 // }else {
 //     console.log("norm");
 // }   
@@ -324,7 +326,7 @@
 // }else if (a < 0 && b < 0 && c >= 0 || a >= 0 && b < 0 && c < 0 || a < 0 && b >= 0 && c < 0){
 //     console.log(" 1 ta musbat");
 // }else {
-//     console.log("unaqa narsa mavjud emas 🖕");
+//     console.log("unaqa narsa mavjud emas ");
 // }
 
 
@@ -347,7 +349,7 @@
 // }else if (a < 0 && b < 0 && c < 0) {
 //     console.log("3 ta manfiy , musbat yoq");
 // }else {
-//     console.log("unaqa narsa mavjud emas 🖕");
+//     console.log("unaqa narsa mavjud emas ");
 // }
 
 
@@ -361,7 +363,7 @@
 // }else if (a < b) {
 //     console.log("b katta");
 // }else {
-//     console.log("unaqa narsa mavjud emas 🖕");
+//     console.log("unaqa narsa mavjud emas ");
 // }
 
 
@@ -375,7 +377,7 @@
 // }else if (a < b) {
 //     console.log("2");
 // }else {
-//     console.log("unaqa narsa mavjud emas 🖕");
+//     console.log("unaqa narsa mavjud emas ");
 // }
     
 
@@ -853,17 +855,91 @@
 
 
 
-// 8
+// 10
+
+// let Y = prompt("sh-shimol, j-janub, q-sharq, g'- g'arb tomonni tanlang") 
+// let K = +prompt("son kiriting: 1-chapga  buril, 2-o'ngga buril")
+// switch (Y) {
+//     case "sh":
+//         console.log("shimol tarafdan");
+//         break;
+//     case "j":
+//         console.log('janub  tarafdan');
+//         break
+//     case "q":
+//         console.log("sharq tarafdan");
+//         break
+//     case "g":
+//         console.log("g'arb tarafdan");
+
+//     default:
+//         console.log("xatolik");
+// }
+// switch (K) {
+//     case 1:
+//         console.log("chapga buril");
+//         break;
+//     case 2:
+//         console.log("o'ngga buril");
+//     default:
+//         break;
+// }
+
+
+// // 11
+
+// let Y = prompt("sh-shimol, j-janub, q-sharq, g'- g'arb tomonni tanlang") 
+// let K = +prompt("son kiriting: 0-o'ngga buril, 1-chapga  buril, 2-burulish 180 C ")
+// switch (Y) {
+//     case "sh":
+//         console.log("shimol tarafdan");
+//         break;
+//     case "j":
+//         console.log('janub  tarafdan');
+//         break
+//     case "q":
+//         console.log("sharq tarafdan");
+//         break
+//     case "g":
+//         console.log("g'arb tarafadn");
+//         break;
+//     default:
+//         console.log("xatolik");
+//         break;
+// }
+// switch (K) {
+//     case 0:
+//         console.log("o'ngga burilish");
+//         break;
+//     case 1:
+//         console.log("chapga burilish");
+//         break;
+//     case 2:
+//         console.log("burulish 180 C");
+//         break;
+//     default:
+//         console.log("xatolik");
+//         break;
+// }
 
 
 
 
+// 16
+
+// let y = +prompt("Agar 20+ bolsang yoshingni kirit")
+// let a = y % 10
+// let b = (y - a) / 10 
+// let on = ["yigirma", "o'ttiz", "qirq", "ellik", "oltmish"]
+// let birlik = ["nol", "bir", "ikki", "uch", "to'rt", "besh", "olti","yetti","sakkiz","to'qqiz"]
 
 
-
-
-
-
+// switch (b) {
+//     case 2:
+//         if (a < 10) {
+//             console.log(on[0] + birlar)
+//         }
+// }
 
 
 
@@ -966,7 +1042,7 @@
 
 
 
-
+// lesson 6 for sikl
 
 
 // let x = 3;
@@ -995,3 +1071,148 @@
 
 // let text = document.querySelector(".dom")
 // text.innerText =a
+
+
+// let startNum = 1;
+
+
+// // First
+// while (startNum<= 10) {
+//     console.log(startNum);
+//     startNum++;
+// }
+
+
+
+// let num = 10;
+// for (let i = 1; i <= 10; i++) {
+//     // console.log(i);
+//     // console.log(num);
+//     // num++;
+//     if (i == 8) {
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+
+
+// questions
+
+// 1 
+
+// let k = +prompt('k sonini kiriting');
+// let n = +prompt('n sonini kiriting');
+
+
+// for (let i = 0; i < n; i++) {
+//     console.log(k);
+// }
+
+
+
+// 2
+
+// let a = +prompt('a sonini kiriting');
+// let b = +prompt('b sonini kiriting');
+
+// for (let i = a; i <= b; i++) {
+//     console.log(a);
+//     a++;
+// }
+
+
+
+// 3
+
+// let a = +prompt('a sonini kiriting');
+// let b = +prompt('b sonini kiriting');
+
+// for (let i = b - 1; i > a; i--) {
+//     console.log(i);
+// }
+
+
+
+// 4
+
+// let a = +prompt("konfetni og'irligini kiriting");
+// let b = +prompt('1-10 gacha son kiriting');
+
+// for (let i = a; i <= 10; i++) {
+//     console.log(i * b);
+// }
+
+
+
+// 5
+
+// let a = +prompt("konfetni og'irligini kiriting");
+// let b = +prompt('1-10 gacha son kiriting');
+
+// for (let i = a; i <= 1; i++) {
+//     let c = i * b
+//     console.log(c.toFixed(1))
+// }
+
+
+// 6
+
+// const a = +prompt("vazn");
+
+// for (let i = a; i <= 2; i += 0.2) {
+//     console.log(`${i} kg konfetning narxi: ${i* 1000} so'm`);
+// }
+
+
+// 7
+
+// let a = +prompt('a sonini kiriting');
+// let b = +prompt('b sonini kiriting');
+// let c = 0;
+// for (let i = a ; i < b; i++) {
+//     c += i
+// }console.log(c);
+
+
+// 8
+
+// let a = +prompt('a sonini kiriting');
+// let b = +prompt('b sonini kiriting');
+// let c = 1;
+// for (let i = a ; i <= b; i++) {
+//     c *= i
+// }console.log(c);
+
+
+
+// 9
+
+// let a = +prompt('a sonini kiriting');
+// let b = +prompt('b sonini kiriting');
+// let c = 1;
+// for (let i = a ; i <= b; i++) {
+//     c += i*i
+// }console.log(c);
+
+
+
+// 10
+
+// let a = +prompt('a sonini kiriting');
+
+// let c = 0;
+// for (let i = 1 ; i <= a; i++) {
+//     c += 1 / i
+// }console.log(c);
+
+
+
+// 11
+
+// let n = +prompt('a sonini kiriting');
+
+// let c = 0;
+// for (let i = 0 ; i <= n; i++) {
+//     c += (n * i); i**2
+// }console.log(c);
